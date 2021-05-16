@@ -9,4 +9,4 @@ notebooks/
 scripts/
 tests/
 mlruns/
-.github/
+.github/*
