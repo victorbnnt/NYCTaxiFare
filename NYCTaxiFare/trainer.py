@@ -17,6 +17,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.model_selection import cross_validate
 from sklearn.metrics import make_scorer
+from sklearn.impute import SimpleImputer
 
 # mlflow
 from memoized_property import memoized_property
@@ -63,7 +64,7 @@ class Trainer():
         preprocessor = ColumnTransformer([
             ('distance', DistanceTransformer(), ['pickup_longitude', 'pickup_latitude', 'dropoff_longitude', 'dropoff_latitude']),
             ('time', pipe_time, ['pickup_datetime'])
-        ])
+        ], remainder='passthrough')
 
         # PREPROCESSOR PIPELINE
         pipe_prepro = Pipeline([
@@ -171,7 +172,7 @@ if __name__ == "__main__":
     results = parser.parse_args()
 
     # get data
-    data = get_data(nrows=10000)
+    data, _ = get_data(nrows=1000)
 
     # clean data
     data = clean_data(data)

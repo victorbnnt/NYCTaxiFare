@@ -42,10 +42,10 @@ grid_rfr = {'model__n_estimators': stats.randint(1, 300),
             'model__max_depth': stats.randint(1, 300),
             'model__max_samples': stats.randint(1, 300),
             "preprocessor__scaler": [StandardScaler(), RobustScaler(), MinMaxScaler()]
-           }
+            }
 #
 params_rfr = {"random_grid_search": grid_rfr,
-             "model": RandomForestRegressor()}
+              "model": RandomForestRegressor()}
 ######################################################
 
 ######################################################
@@ -58,7 +58,7 @@ grid_gbr = {#'model__loss': ["ls", "lad", "huber", "quantile"],
            }
 #
 params_gbr = {"random_grid_search": grid_gbr,
-             "model": GradientBoostingRegressor()}
+              "model": GradientBoostingRegressor()}
 ######################################################
 
 ######################################################
@@ -67,10 +67,10 @@ params_gbr = {"random_grid_search": grid_gbr,
 grid_abr = {'model__learning_rate': stats.loguniform(0.001, 10),
             'model__n_estimators': stats.randint(1, 300),
             "preprocessor__scaler": [StandardScaler(), RobustScaler(), MinMaxScaler()]
-           }
+            }
 #
 params_abr = {"random_grid_search": grid_abr,
-             "model": AdaBoostRegressor()}
+              "model": AdaBoostRegressor()}
 ######################################################
 
 ######################################################
@@ -78,10 +78,10 @@ params_abr = {"random_grid_search": grid_abr,
 ######################################################
 grid_SVR = {'model__C': stats.loguniform(0.001, 10),
             'model__epsilon': stats.loguniform(0.001, 10),
-            'model__gamma': stats.loguniform(0.001, 10),
-            "preprocessor__scaler": [StandardScaler(), RobustScaler(), MinMaxScaler()]
-           }
+            'model__gamma': stats.loguniform(0.001, 10)
+            #"preprocessor__scaler": [StandardScaler(), RobustScaler(), MinMaxScaler()]
+            }
 #
 params_SVR = {"random_grid_search": grid_SVR,
-             "model": SVR()}
+              "model": SVR()}
 ######################################################
