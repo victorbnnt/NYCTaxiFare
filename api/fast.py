@@ -24,7 +24,7 @@ def index():
 def predict_fare(pickup_datetime, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude, passenger_count):
     model = get_model("model")
     X_pred = pd.DataFrame({
-            "pickup_datetime": [pickup_datetime],
+            "pickup_datetime": [pd.Timestamp(pickup_datetime, tz='UTC')],#pd.Timestamp(pickup_datetime, tz='UTC')
             "pickup_longitude": [float(pickup_longitude)],
             "pickup_latitude": [float(pickup_latitude)],
             "dropoff_longitude": [float(dropoff_longitude)],

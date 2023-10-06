@@ -1,0 +1,12 @@
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_fields.py:128: UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_config.py:317: UserWarning: Valid config keys have changed in V2:
+* 'schema_extra' has been renamed to 'json_schema_extra'
+  warnings.warn(message, UserWarning)
+INFO:     Started server process [379006]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8900 (Press CTRL+C to quit)
+INFO:     127.0.0.1:36682 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.03498077270442&pickup_longitude=40.74340926835268&dropoff_latitude=-74.1271629321284&dropoff_longitude=40.81204419347375&passenger_count=1&pickup_datetime=2023-10-06%2011:00:26%20UTC HTTP/1.0" 200 OK
