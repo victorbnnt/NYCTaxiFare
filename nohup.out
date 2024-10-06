@@ -10,3 +10,131 @@ INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://127.0.0.1:8900 (Press CTRL+C to quit)
 INFO:     127.0.0.1:36682 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.03498077270442&pickup_longitude=40.74340926835268&dropoff_latitude=-74.1271629321284&dropoff_longitude=40.81204419347375&passenger_count=1&pickup_datetime=2023-10-06%2011:00:26%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:43562 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.0446060855195&pickup_longitude=40.71845205400214&dropoff_latitude=-73.98917544404821&dropoff_longitude=40.71881933251174&passenger_count=1&pickup_datetime=2023-10-06%2011:21:32%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:34008 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34008 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36646 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.0346374499522&pickup_longitude=40.74334423955244&dropoff_latitude=-73.84502510513218&dropoff_longitude=40.721940568069954&passenger_count=1&pickup_datetime=2023-10-13%2005:58:39%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:57318 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.15153891208803&pickup_longitude=40.79378744385534&dropoff_latitude=-73.700131&dropoff_longitude=40.714269&passenger_count=1&pickup_datetime=2023-10-13%2009:04:58%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:57322 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.15153891208803&pickup_longitude=40.79378744385534&dropoff_latitude=-73.700131&dropoff_longitude=40.714269&passenger_count=2&pickup_datetime=2023-10-13%2009:04:58%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:37188 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.151462&pickup_longitude=40.794025&dropoff_latitude=-74.12637827615099&dropoff_longitude=40.84239776413381&passenger_count=4&pickup_datetime=2023-10-13%2009:04:58%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:45952 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.007257&pickup_longitude=40.886016&dropoff_latitude=-73.87071&dropoff_longitude=40.775069&passenger_count=1&pickup_datetime=2023-10-13%2009:24:28%20UTC HTTP/1.0" 200 OK
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_fields.py:128: UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_config.py:317: UserWarning: Valid config keys have changed in V2:
+* 'schema_extra' has been renamed to 'json_schema_extra'
+  warnings.warn(message, UserWarning)
+INFO:     Started server process [12137]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8900 (Press CTRL+C to quit)
+INFO:     127.0.0.1:44852 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.032375&pickup_longitude=40.743307&dropoff_latitude=-73.87071&dropoff_longitude=40.775069&passenger_count=1&pickup_datetime=2023-10-13%2011:07:55%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:34410 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.145421&pickup_longitude=40.768434&dropoff_latitude=-73.87071&dropoff_longitude=40.775069&passenger_count=1&pickup_datetime=2023-10-13%2011:27:37%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:46486 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.145421&pickup_longitude=40.768434&dropoff_latitude=-73.87071&dropoff_longitude=40.775069&passenger_count=1&pickup_datetime=2023-10-13%2011:27:37%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:46488 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.145421&pickup_longitude=40.768434&dropoff_latitude=-73.87071&dropoff_longitude=40.775069&passenger_count=1&pickup_datetime=2023-10-13%2011:27:37%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:46504 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.145421&pickup_longitude=40.768434&dropoff_latitude=-73.87071&dropoff_longitude=40.775069&passenger_count=1&pickup_datetime=2023-10-13%2011:27:37%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:46506 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.145421&pickup_longitude=40.768434&dropoff_latitude=-73.87071&dropoff_longitude=40.775069&passenger_count=1&pickup_datetime=2023-10-13%2011:27:37%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:43678 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.263202&pickup_longitude=40.697602&dropoff_latitude=-73.87071&dropoff_longitude=40.775069&passenger_count=1&pickup_datetime=2023-10-13%2014:22:05%20UTC HTTP/1.0" 200 OK
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_fields.py:128: UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_config.py:317: UserWarning: Valid config keys have changed in V2:
+* 'schema_extra' has been renamed to 'json_schema_extra'
+  warnings.warn(message, UserWarning)
+INFO:     Started server process [8111]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8900 (Press CTRL+C to quit)
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_fields.py:128: UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_config.py:317: UserWarning: Valid config keys have changed in V2:
+* 'schema_extra' has been renamed to 'json_schema_extra'
+  warnings.warn(message, UserWarning)
+INFO:     Started server process [4797]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8900 (Press CTRL+C to quit)
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_fields.py:128: UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_config.py:317: UserWarning: Valid config keys have changed in V2:
+* 'schema_extra' has been renamed to 'json_schema_extra'
+  warnings.warn(message, UserWarning)
+INFO:     Started server process [4288]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8900 (Press CTRL+C to quit)
+INFO:     127.0.0.1:33016 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.03327792671448&pickup_longitude=40.74335947276677&dropoff_latitude=-73.92893891702329&dropoff_longitude=40.78751261957089&passenger_count=1&pickup_datetime=2023-11-24%2016:58:45%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:53014 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.033178&pickup_longitude=40.743342&dropoff_latitude=-73.6713706551338&dropoff_longitude=40.78110772032849&passenger_count=1&pickup_datetime=2023-11-24%2016:58:45%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:38354 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.033184&pickup_longitude=40.743322&dropoff_latitude=-72.91710084236382&dropoff_longitude=40.77757024792956&passenger_count=1&pickup_datetime=2023-11-24%2016:58:45%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:57368 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.033184&pickup_longitude=40.743322&dropoff_latitude=-72.18183268559831&dropoff_longitude=40.963211911672346&passenger_count=1&pickup_datetime=2023-11-24%2016:58:45%20UTC HTTP/1.0" 200 OK
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_fields.py:128: UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_config.py:317: UserWarning: Valid config keys have changed in V2:
+* 'schema_extra' has been renamed to 'json_schema_extra'
+  warnings.warn(message, UserWarning)
+INFO:     Started server process [4206]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8900 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51032 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-73.98965799999999&pickup_longitude=40.741103499999994&dropoff_latitude=-73.781749&dropoff_longitude=40.642421999999996&passenger_count=1&pickup_datetime=2024-02-24%2009:30:28%20UTC HTTP/1.0" 200 OK
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_fields.py:128: UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_config.py:317: UserWarning: Valid config keys have changed in V2:
+* 'schema_extra' has been renamed to 'json_schema_extra'
+  warnings.warn(message, UserWarning)
+INFO:     Started server process [7926]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8900 (Press CTRL+C to quit)
+INFO:     127.0.0.1:36794 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.01232147094672&pickup_longitude=40.722271560889595&dropoff_latitude=-74.0026304314914&dropoff_longitude=40.726230492558216&passenger_count=1&pickup_datetime=2024-04-17%2016:52:23%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:44410 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.011882&pickup_longitude=40.722218&dropoff_latitude=-73.9935323785138&dropoff_longitude=40.74502600489234&passenger_count=1&pickup_datetime=2024-04-17%2016:52:23%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:50716 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.011875&pickup_longitude=40.72225&dropoff_latitude=-73.96761151059414&dropoff_longitude=40.76966674246958&passenger_count=1&pickup_datetime=2024-04-17%2016:52:23%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36262 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-74.011875&pickup_longitude=40.72225&dropoff_latitude=-73.93619747861202&dropoff_longitude=40.81937549722642&passenger_count=1&pickup_datetime=2024-04-17%2016:52:23%20UTC HTTP/1.0" 200 OK
+INFO:     127.0.0.1:36778 - "GET /predict_fare?key=2012-10-06%2012:10:20.0000001&pickup_latitude=-73.883526&pickup_longitude=40.755832&dropoff_latitude=-73.930836&dropoff_longitude=40.753153&passenger_count=5&pickup_datetime=2024-04-17%2016:52:23%20UTC HTTP/1.0" 200 OK
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_fields.py:128: UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_config.py:317: UserWarning: Valid config keys have changed in V2:
+* 'schema_extra' has been renamed to 'json_schema_extra'
+  warnings.warn(message, UserWarning)
+INFO:     Started server process [4429]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8900 (Press CTRL+C to quit)
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_fields.py:128: UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_config.py:317: UserWarning: Valid config keys have changed in V2:
+* 'schema_extra' has been renamed to 'json_schema_extra'
+  warnings.warn(message, UserWarning)
+INFO:     Started server process [4150]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8900 (Press CTRL+C to quit)
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_fields.py:128: UserWarning: Field "model_server_url" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/home/victorbonnet/.pyenv/versions/3.8.6/envs/taxifare-nyc/lib/python3.8/site-packages/pydantic/_internal/_config.py:317: UserWarning: Valid config keys have changed in V2:
+* 'schema_extra' has been renamed to 'json_schema_extra'
+  warnings.warn(message, UserWarning)
+INFO:     Started server process [5604]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8900 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5604]
